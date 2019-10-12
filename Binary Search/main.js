@@ -1,7 +1,7 @@
 //var input = readline()
 
-var T = readline().split(' ').map(x => parseInt(x));
-var K = parseInt(readline());
+var T = readline().split(' ').map(x => parseInt(x)); // total array
+var K = parseInt(readline());  // find value
 print(binarySearch(T, K));
 
 
